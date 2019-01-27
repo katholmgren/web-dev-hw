@@ -1,2 +1,2 @@
 # web-dev-hw
-Repository for my Intro to Web Design and Development homework.
+Katherine Holmgren's repository for Intro to Web Design and Development.
