@@ -1,5 +1,19 @@
-This is a haiku
+How is the web different than the internet?
 
-about this epic text file.
+The Internet is a global network that connects individual devices/computers. The web is accessed over the Internet. It is a connection of documents that are organized through hypertext links.
 
-This file is supreme.
+Briefly describe how the internet works. ("Magic.")
+
+The Internet is a cable in the ground. This could be a fiberoptical cable, a phone service provider, or a satellite-- it is just a connection. Servers are computers that are directly connected to this cable. Each server has an Internet Protocol (IP) address which makes each server connected to the Internet distinguishable. Personal computers that are not directly connected to the Internet wire are called Clients. They must go through an Internet Service Provider (ISP) to get access to a Server's documents. When accessing information through the Internet, documents sent to your device in pieces, then reassembled. This is called packet switching. A router is between a client and an ISP. A router manages packets so that packets are sent to the right device.
+
+What is a directory, and what is its relationship to files?
+
+A directory is the correct term for a folder on a computer. It can hold files and more directories. It is useful for organizing information on a computer.
+
+Why is using a VCS beneficial?
+
+Using a Version Control System (VCS) is beneficial because it saves previous versions of your files and directories. This is useful in coding because it allows a user to look at past changes, allowing you to revert to previous versions of the same file. So thanks to VCS, if you mess up, it's not the end of the world.
+
+State at least one thing you found interesting this topic, or that you didn't know before.
+
+I knew the basics of how the Internet worked, but this cleared it up more. I appreciated that. I didn't understand routers before but I do now. 
