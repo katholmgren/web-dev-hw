@@ -1,0 +1,15 @@
+Briefly describe one way how data travels on the internet.
+
+One way data travels on the Internet is through bits and bytes. Bits are 1s and 0s-- yes and no's. Bits travel very quickly over fiberoptic cables. A fiberoptic cable transfers these bits using beams of light, often across long distances. A beam of light is yes (1) and an absence of light is no (0). Millions of bits are sent through these cables every second; this is called bit rate. Wirelessly, this is done by radio waves.
+
+What is the relationship between an IP address and the DNS?
+
+An IP address is a number assigned to a computer connected to the Internet. This number is comparable to a physical home address-- it tells the computer where another computer is on the Internet. Since these numbers are hard to use, they are replaced with a domain name (ex: www.example.com). When you request documents by entering a domain name, your computer finds the corresponding IP address by using the DNS (Domain Name System) and receives the information.
+
+What is a cookie?
+
+A cookie is a way to keep track of a user of a website. This makes it so a website can remember who you are so you don't have to login every time. It is comparable to an ID card.
+
+List the three basic parts of a URL.
+
+The protocol, the domain name, and the path.
