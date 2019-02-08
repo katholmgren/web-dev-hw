@@ -13,4 +13,4 @@ I've enjoyed learning about how the Internet works! It is a good thing to know a
 
 [Responses](./responses.txt)
 
-[Screenshot](./images/screenshot-a2.png)
+![Screenshot](./images/screenshot-a2.png)
