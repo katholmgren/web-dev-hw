@@ -3,6 +3,8 @@ February 16, 2019
 
 # Assignment 4
 
+[Live Link](https://katholmgren.github.io/web-dev-hw/assignment-04/index.html)
+
 ## Web Design Over the Years
 
 Using the [Way Back Machine](https://web.archive.org/web/20080515230258/http://www.kcaw.org/), I looked up my hometown's radio station website from May 15th, 2008. The biggest difference I see in the 2008 homepage is less-quality graphic design and layout. Instead of the page taking up the entire browser window like modern websites, it is narrow with blank gray space on either side. There are more headers and less pictures in the old website. It is also more static than the modern website because there is a slide slow, moving elements, and a pop-up subsription box now.
