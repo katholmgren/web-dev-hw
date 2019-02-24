@@ -4,7 +4,7 @@ February 23, 2019
 
 # Assignment 5
 
-[Live Link](https://katholmgren.github.io/web-dev-hw/assignment-05)
+[Recipe Live Link](https://katholmgren.github.io/web-dev-hw/assignment-05)
 
 ### How many document head and body elements can a page have? How are these elements different, or what role do they play?
 
