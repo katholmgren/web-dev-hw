@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+  <!-- 03/03/2019, Assignment 6, Intro to Web Design -->
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Contact information for the Mansfield Library in Missoula, MT.">
+    <meta name="author" content="Katherine Holmgren">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manfield Library Contact Information</title>
+    <style>
+    table, th, td {
+      border: 1px solid black;
+      padding: 5px;
+    }
+</style>
+  </head>
+
+  <body>
+    <h1>Manfield Library Contact Information</h1>
+    <address>
+      University of Montana<br>
+      32 Campus Drive<br>
+      Missoula, MT 59801<br>
+      (406) 243-6866<br>
+    </address>
+        <a href="mailto: library.archives@umontana.edu">library.archives@umontana.edu</a>
+    <h2>Hours</h2>
+    <table>
+       <tr>
+          <th></th>
+          <th scope="col">Monday</th>
+          <th scope="col">Tuesday</th>
+          <th scope="col">Wednesday</th>
+          <th scope="col">Thursday</th>
+          <th scope="col">Friday</th>
+          <th scope="col">Saturday</th>
+          <th scope="col">Sunday</th>
+       </tr>
+       <tr>
+          <th scope="row">Opens</th>
+          <td>7AM</td>
+          <td>7AM</td>
+          <td>7AM</td>
+          <td>7AM</td>
+          <td>7AM</td>
+          <td>10AM</td>
+          <td>10AM</td>
+       </tr>
+       <tr>
+          <th scope="row">Closes</th>
+          <td>2AM</td>
+          <td>2AM</td>
+          <td>2AM</td>
+          <td>2AM</td>
+          <td>7PM</td>
+          <td>7PM</td>
+          <td>2AM</td>
+       </tr>
+    </table>
+    <h2>Review Mansfield Library</h2>
+    <form action="http://www.example.com/login.php" method="post" id="comments" class="basic-forms">
+      <p>
+        Name<br>
+        <input type="text" name="name" id="name_input"/> <br><br>
+        Email<br>
+        <input type="text" name="email" id="email_input"/> <br><br>
+        Comments or Concerns<br>
+        <textarea name="comments" id="comments-textarea" maxlength="500" size="500">Enter up to 500 characters...</textarea>
+      </p>
+    </form>
+  </body>
+
+
+</html>
