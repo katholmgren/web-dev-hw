@@ -5,7 +5,7 @@
 
   <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Instructions to master the art of instant oatmeal.">
+    <meta name="description" content="Contact Katie for more information about instant oatmeal.">
     <meta name="author" content="Katherine Holmgren">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
@@ -18,50 +18,48 @@
           background-repeat: repeat;
           background-size: cover;
         }
-        .behind-text {
-           background-color: white;
-           font-family: Arial;
-        }
         .container {
           background-color: white;
           width: 1000px;
           margin: auto;
           padding: 20px;
+          font-family: Arial;
         }
-
     </style>
-    </head>
+  </head>
 
-    <body>
-      <nav id="navigation" class="container behind-text">
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-        </ul>
-      </nav>
+  <body>
+    <nav id="navigation" class="container">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
 
-        <div id="contact" class="container behind-text">
-          <h1>Contact</h1>
-          <form action="./contact.html" method="post" id="ask-info" class="basic-forms">
-            <p>
-              Name<br>
-              <input type="text" name="name" id="name-input"/> <br><br>
-              Email<br>
-              <input type="text" name="email" id="email-input" placeholder="example@umontana.edu"/> <br><br>
-              Are you a student?</br>
-              <input type="radio" name="student" value="yes"/> Yes
-              <br>
-              <input type="radio" name="student" value="no" checked/> No
-              <br>
-              <br>
-              Comments<br>
-              <textarea name="comments" id="comments-textarea" maxlength="500" cols="90" rows="4">Enter up to 500 characters...</textarea>
-              <br>
-              <br>
-              <input type="submit" name="submit" value="Submit" />
-            </p>
-          </form>
-        </div>
+    <div id="contact" class="container">
+      <h1>Contact Me</h1>
+      <img src="./images/about-pic.jpg" alt="Picture of Katie" title="Picture of Katie"width="400" height="300"</img>
+      <form action="./contact.html" method="post" id="ask-info" class="basic-forms">
+        <p>
+        Name<br>
+        <input type="text" name="name" id="name-input"/> <br><br>
+        Email<br>
+        <input type="text" name="email" id="email-input" placeholder="example@umontana.edu"/> <br><br>
+        Are you a student?</br>
+        <input type="radio" name="student" value="yes"/> Yes
+        <br>
+        <input type="radio" name="student" value="no" checked/> No
+        <br>
+        <br>
+        Comments<br>
+        <textarea name="comments" id="comments-textarea" maxlength="500" cols="90" rows="4">Enter up to 500 characters...</textarea>
+        <br>
+        <br>
+        <input type="submit" name="submit" value="Submit" />
+        </p>
+      </form>
+    </div>
+  </body>
 
-    </body>
+</html>
