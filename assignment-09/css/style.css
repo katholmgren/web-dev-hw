@@ -10,13 +10,16 @@
     /*Add space between the boarder and its inside elements. */
     padding: 10px;
     /* Color the background dark grey. */
-    background: #373E42;
+    background: blue;
 }
 
-p {
-    font-family: Arial;
-    color: blue;
-    background-color: limegreen;
+#farout {
+    font-family: Arial, monospace;
+    padding: 15px;
+    color: orange;
+    text-alight: right;
+    font-weight: bold;
+    font-size: 48pt;
 }
 
 .images {
