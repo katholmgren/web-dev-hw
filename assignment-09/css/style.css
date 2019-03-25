@@ -1,29 +1,24 @@
-
-* {
-    background: #000000
-}
-.words {
-    /* Draw a lime green border 2px thick. */
-    border-style: solid;
-    border-width: 2px;
-    border-color: limegreen;
-    /*Add space between the boarder and its inside elements. */
-    padding: 10px;
-    /* Color the background dark grey. */
-    background: blue;
+body {
+   background-color: white;
+   font-family: monospace;
 }
 
-#farout {
-    font-family: Arial, monospace;
-    padding: 15px;
-    color: orange;
-    text-alight: right;
-    font-weight: bold;
-    font-size: 48pt;
+section {
+   width: 800px;
+   background-color: black;
+   border-radius: 25px;
+   padding: 20px;
+   padding-bottom: 40px;
+   margin: auto;
+   margin-bottom: -170px;
 }
 
-.images {
-    border-style: solid;
-    border-width: 2px;
-    border-color: orange;
+h1 {
+   color: #772953;
+   text-align: center !important;
+   font-size: 32px;
 }
+
+#sixties {
+    float: right;
+ }
