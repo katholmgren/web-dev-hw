@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-  <!-- 03/24/2019, Assignment 9, Intro to Web Design -->
+  <!-- 03/25/2019, Assignment 9, Intro to Web Design -->
 <html>
 
   <head>
@@ -8,21 +8,32 @@
     <meta name="description" content="A 60's themed web page for Intro to Web Design at the University of Montana.">
     <meta name="author" content="Katherine Holmgren">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Designs from the 60's</title>
+    <title>Design in the 60's</title>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
   </head>
 
-<!--TODO:  divs and class, text, images-->
   <body>
     <section>
-      <h1>far out</h1>
-      <br>
-      <div>
-        <img id="waves" src="./images/charade-sin-waves.jpg" alt="Waves from Charade movie credits." title="Charade Waves"width="800px"</img>
-        <img id="arrows" src="./images/charade-arrows.jpg" alt="Decorative arrows from Charade movie credits." title="Charade Arrows"width="500px"</img></img>
-        <img id="sixties" src="./images/60-text.png" alt="The sixties." title="The Sixties"width="250px"</img>
-        <!--<img id="charade" src="./images/charade-title-word.jpg" alt="Title from Charade movie credits." title="Charade Title"width="800px"</img>-->
+
+      <div id="farout" class="text">
+        <h1>far out</h1>
       </div>
+
+      <div id="description" class="text">
+        <p>The '60s was a decade marked by the Vietnam War, political unrest, and cultural rebellion. Abstract Expressionism and Pop Art were embraced and played a bigger role in marketing and graphic design. The widespread use of hallucinatory drugs like LSD lead to bold, colorful, psychedelic designs that have since become iconic of the '60s.</p>
+      </div>
+
+      <div class="images">
+        <img id="waves" src="./images/charade-sin-waves.jpg" alt="Waves from Charade movie credits." title="Charade Waves"width="800px"height="350"</img>
+        <img id="arrows" src="./images/charade-arrows.jpg" alt="Decorative arrows from Charade movie credits." title="Charade Arrows"width="550px"</img></img>
+        <img id="sixties" src="./images/60-text.png" alt="The sixties." title="The Sixties"width="250px"</img>
+      </div>
+
+      <div id="video">
+      <br>
+      <iframe width="640" height="385" src="https://www.youtube.com/embed/_eFaWAccRAc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+
     </section>
   </body>
 
