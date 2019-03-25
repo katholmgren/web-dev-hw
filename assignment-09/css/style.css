@@ -1,6 +1,9 @@
+/* Katherine Holmgren's style sheet for Assignment 9, Intro to Web Design */
+/* 03/25/2019 */
+
 body {
    background-color: white;
-   font-family: monospace;
+   font-family: "Verdana", monospace;
 }
 
 section {
@@ -13,12 +16,22 @@ section {
    margin-bottom: -170px;
 }
 
-h1 {
-   color: #772953;
-   text-align: center !important;
+.text {
+  color: orange;
+  text-align: center !important;
+}
+
+#farout {
    font-size: 32px;
+   letter-spacing: 0.3em;
+   line-height: 0.03em;
 }
 
 #sixties {
     float: right;
  }
+
+#video {
+    padding: 75px;
+    postion: absolute;
+}
