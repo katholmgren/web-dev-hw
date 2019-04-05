@@ -1,0 +1,19 @@
+
+body{
+  margin: 40px;
+  padding: 40px;
+  margin-top: 0px;
+  background-color: rgba(250, 250, 100, .4);
+  background-image: url("../images/vines-purple.png");
+  background-repeat: no-repeat;
+  background-postion: center bottom;
+  background-size: cover;
+  background-blend-mode: color;
+  font-size: 18pt;
+  font-family: georgia;
+}
+
+h1{
+  font-family: 'KTF Roadbrush';
+  font-size: 54pt;
+}
