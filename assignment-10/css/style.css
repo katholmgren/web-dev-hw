@@ -3,17 +3,45 @@ body{
   margin: 40px;
   padding: 40px;
   margin-top: 0px;
-  background-color: rgba(250, 250, 100, .4);
-  background-image: url("../images/vines-purple.png");
+  background-color: rgb(250, 250, 100);
+  background-image: url("../images/vines-purple-edit.png");
   background-repeat: no-repeat;
   background-postion: center bottom;
   background-size: cover;
-  background-blend-mode: color;
   font-size: 18pt;
-  font-family: georgia;
+  font-family: 'Crimson Text', garamond, serif;
+}
+
+p::first-letter {
+  font-size: 24pt;
 }
 
 h1{
-  font-family: 'KTF Roadbrush';
+  font-family: 'KTF Roadbrush', helvetica, sans-serif;
   font-size: 54pt;
+  line-height: 20pt;
+}
+
+h2{
+  font-size: 24pt;
+}
+
+#moreinfo{
+  text-align: center;
+}
+
+a:visited {
+   color: #777;
+   text-decoration: none;
+}
+
+a:hover {
+   font-style: italic;
+}
+
+@font-face {
+font-family: 'KTF Roadbrush';
+src: url('../fonts/KTF-Roadbrush.ttf') format('truetype');
+font-weight: regular;
+font-style: regular;
 }
