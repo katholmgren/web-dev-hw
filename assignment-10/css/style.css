@@ -1,19 +1,22 @@
 
+@font-face {
+font-family: 'KTF Roadbrush';
+src: url('../fonts/KTF-Roadbrush.ttf') format('truetype');
+font-weight: regular;
+font-style: regular;
+}
+
 body{
   margin: 40px;
   padding: 40px;
   margin-top: 0px;
-  background-color: rgb(250, 250, 100);
+  background-color: rgb(255,255,153);
   background-image: url("../images/vines-purple-edit.png");
   background-repeat: no-repeat;
   background-postion: center bottom;
   background-size: cover;
   font-size: 18pt;
   font-family: 'Crimson Text', garamond, serif;
-}
-
-p::first-letter {
-  font-size: 24pt;
 }
 
 h1{
@@ -26,9 +29,14 @@ h2{
   font-size: 24pt;
 }
 
+p::first-letter {
+  font-size: 24pt;
+}
+
 #moreinfo{
   text-align: center;
 }
+
 
 a:visited {
    color: #777;
@@ -37,11 +45,4 @@ a:visited {
 
 a:hover {
    font-style: italic;
-}
-
-@font-face {
-font-family: 'KTF Roadbrush';
-src: url('../fonts/KTF-Roadbrush.ttf') format('truetype');
-font-weight: regular;
-font-style: regular;
 }
