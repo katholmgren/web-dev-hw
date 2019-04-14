@@ -1,0 +1,82 @@
+
+body {
+  margin-left: 50px;
+  margin-top: 25px;
+  background-color: black;
+}
+
+div {
+  display: inline-block;
+}
+
+.canvas {
+  postion: relative;
+  background-color: rgb(255,255,248);
+  width: 400px;
+  height: 525px;
+  display: inline-block;
+}
+
+.brown {
+  position: relative;
+  left: 25px;
+  top: 25px;
+  width: 350px;
+  height: 400px;
+  background-color: rgb(160,125,100);
+
+}
+
+.purple {
+  position: relative;
+  left: 65px;
+  top: 50px;
+  width: 225px;
+  height: 350px;
+  background-color: purple;
+}
+
+.red {
+  position: relative;
+  left: 50px;
+  top: 50px;
+  width: 125px;
+  height: 325px;
+  background-color: red;
+  border: 2px solid pink;
+}
+
+.pink {
+  position: relative;
+  left: 15px;
+  top: 150px;
+  width: 75px;
+  height: 125px;
+  background-color: pink;
+  z-index: 8;
+}
+
+.teal {
+  position: relative;
+  left: 25px;
+  top: 25px;
+  width: 350px;
+  height: 75px;
+  background-color: teal;
+}
+
+.original{
+  position: relative;
+  top: 50px;
+}
+
+.about {
+  postion: relative;
+  padding: auto;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+em {
+  font-weight: bold;
+}
