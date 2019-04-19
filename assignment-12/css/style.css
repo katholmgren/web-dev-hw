@@ -1,8 +1,8 @@
 /* Set your header design: */
 header {
     list-style-type: none;
-    background-color: #26272b;
-    font-family: sans-serif;
+    background-color: #004d39;
+    font-family: 'Lato', sans-serif;
     font-size: 12pt;
     margin: 0;
     padding: 0;
@@ -17,7 +17,7 @@ header {
     float: left;
     min-width: 8em;
     text-align: center;
-    background-color: #26272b;
+    background-color: #004d39;
     padding: 14px 16px;
 }
 
@@ -34,7 +34,7 @@ header {
     text-decoration: none;
 }
 .link:hover {
-    background-color: #1CCDCA;
+    background-color: #008060;
 }
 
 /* DROPDOWN */
@@ -45,18 +45,17 @@ li.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    border: 1px solid #000;
-    border-top: none;
+    border: 1px solid #004d39;
     min-width: 200px;
     margin: 0;
     margin-top: .9em;
     margin-left: -1em;
-    color: #000;
-    background-color: #fff;
+    color: #004d39;
+    background-color: #008060;
     z-index: 1;
 }
 .dropdown-content a {
-    color: #000;
+    color: #fff;
     text-align: left;
     display: block;
 }
