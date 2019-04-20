@@ -1,8 +1,9 @@
-/* Set your header design: */
+
+/* NAVIGATION */
 header {
     list-style-type: none;
     background-color: #004d39;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 12pt;
     margin: 0;
     padding: 0;
@@ -10,6 +11,13 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+}
+
+#home-banner {
+  margin: -10px;
+  width: 110%;
+  height:30%
+  position: relative;
 }
 
 /* Set the layout of the menu: */
@@ -63,7 +71,6 @@ li.dropdown {
     display: block;
 }
 
-/* Style dropdown item display: */
 .dropdown-item {
     display: block;
     text-align: left;
@@ -74,4 +81,24 @@ li.dropdown {
 .dropdown-item:hover, .dropdown-item:hover a {
     color: #baf0ef;
     background-color: #a2a2a2;
+}
+/* end NAVIGATION */
+
+
+/* BANNGER IMAGES*/
+/* Banner for index.html*/
+
+/*#home-banner{
+background: black url(../images/candle-jars.jpg) left no-repeat;
+}*/
+
+.content {
+    margin: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: #004d39;
+    line-height: 32px;
+}
+
+h1 {
+    font-size: 30pt;
 }
