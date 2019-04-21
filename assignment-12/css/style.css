@@ -14,6 +14,20 @@ header {
 }
 
 #home-banner {
+    margin: -10px;
+    width: 110%;
+    height:30%
+    position: relative;
+}
+
+#about-banner {
+    margin: -10px;
+    width: 110%;
+    height:30%
+    position: relative;
+}
+
+#contact-banner {
   margin: -10px;
   width: 110%;
   height:30%
@@ -85,16 +99,11 @@ li.dropdown {
 /* end NAVIGATION */
 
 
-/* BANNGER IMAGES*/
-/* Banner for index.html*/
-
-/*#home-banner{
-background: black url(../images/candle-jars.jpg) left no-repeat;
-}*/
-
+/* CONTENT */
 .content {
     margin: 30px;
-    font-family: 'Open Sans', sans-serif;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
     color: #004d39;
     line-height: 32px;
 }
@@ -102,3 +111,5 @@ background: black url(../images/candle-jars.jpg) left no-repeat;
 h1 {
     font-size: 30pt;
 }
+
+/* end CONTENT */
