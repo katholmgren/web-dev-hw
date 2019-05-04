@@ -43,7 +43,7 @@ header {
     color: pink;
 }
 
-/* DROPDOWN */
+/* Dropdown */
 
 li.dropdown {
     display: inline-block;
@@ -101,3 +101,5 @@ h3 {
 p{
   padding-right: 200px;
 }
+
+/* end GENERAL */
